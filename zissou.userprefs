@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{65599E31-F76E-44C1-828B-D42BC9E29C6A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="zissou.tests/RegisterHandlerTests.cs">
+    <Files>
+      <File FileName="zissou/Modules/RegisterModule.cs" Line="13" Column="2" />
+      <File FileName="zissou/Handlers/RegisterHandler.cs" Line="9" Column="10" />
+      <File FileName="zissou.tests/RegisterHandlerTests.cs" Line="35" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.zissou.tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.zissou PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
