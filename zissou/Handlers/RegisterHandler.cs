@@ -7,7 +7,8 @@ namespace zissou.Handlers
     {
         public static async Task<string> RegisterApplication(RegisterRequest registerRequest, Func<RegisterRequest, Task> registerApplication)
         {
-            return await Task.FromResult("hi");
+            
+            return await Task.FromResult(registerRequest.Name);
                 //await registerApplication(registerRequest);
         }
     }
