@@ -2,13 +2,14 @@
 using System.Threading.Tasks;
 using zissou.Models;
 
-namespace zissou.Modules
+namespace zissou.Handlers
 {
-    internal class HealthHandler
+    public class HealthHandler
     {
-        internal static async Task<Health> UpdateApplicationStatus(Ping ping, Func<Ping, Task<Health>> updateApplication)
+        public static async Task<Health> UpdateApplicationStatus(Ping ping, Func<Ping, Task<Application>> updateApplication)
         {
-            return await updateApplication(ping);
+            await updateApplication(ping);
+            return new Health { Healthy = true };
         }
     }
 }

@@ -5,8 +5,8 @@ namespace zissou.Services
 {
     class HealthService
     {
-        public static async Task<Health> Update(Ping ping) {
-            return await Task.FromResult(new Health());
+        public static async Task<Application> Update(Ping ping) {
+            return await Task.FromResult(new Application());
         }
     }
 }

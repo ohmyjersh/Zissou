@@ -10,7 +10,7 @@ namespace zissou
         public RegisterModule()
         {
             Post("/register", async (args) => {
-                return await RegisterHandler.RegisterApplication(this.Bind<Register>(), Services.RegisterService.Create); 
+                return await RegisterHandler.RegisterApplication(this.Bind<Application>(), Services.RegisterService.Create); 
             });
         }
 

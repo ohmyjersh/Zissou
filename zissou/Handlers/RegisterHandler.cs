@@ -7,7 +7,7 @@ namespace zissou.Handlers
 {
     public class RegisterHandler
     {
-        public static async Task<string> RegisterApplication(Register registerRequest, Func<Register, Task<string>> registerApplication)
+        public static async Task<string> RegisterApplication(Application registerRequest, Func<Application, Task<string>> registerApplication)
         {
             try
             {

@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{4C263394-AE1D-4B17-810B-A9065122322F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="zissou.tests/RegisterHandlerTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="zissou/Handlers/HealthHandler.cs">
     <Files>
-      <File FileName="zissou/Modules/HealthModule.cs" Line="14" Column="39" />
+      <File FileName="zissou/Models/Health.cs" Line="5" Column="7" />
+      <File FileName="zissou.tests/HealthHandlerTests.cs" Line="21" Column="15" />
+      <File FileName="zissou/Modules/RegisterModule.cs" Line="13" Column="87" />
+      <File FileName="zissou/Models/Application.cs" Line="20" Column="2" />
       <File FileName="zissou/Handlers/HealthHandler.cs" Line="14" Column="2" />
-      <File FileName="zissou/Modules/RegisterModule.cs" Line="15" Column="10" />
-      <File FileName="zissou/Interfaces/IRequest.cs" Line="1" Column="1" />
-      <File FileName="zissou/Services/RegisterService.cs" Line="15" Column="1" />
-      <File FileName="zissou/Services/HealthService.cs" Line="12" Column="2" />
-      <File FileName="zissou.tests/RegisterHandlerTests.cs" Line="12" Column="30" />
+      <File FileName="zissou/Services/HealthService.cs" Line="10" Column="10" />
+      <File FileName="zissou/Modules/HealthModule.cs" Line="17" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

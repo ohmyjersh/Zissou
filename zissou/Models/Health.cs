@@ -3,6 +3,7 @@ namespace zissou.Models
 {              
     public class Health 
     { 
+        public bool Healthy { get; set; }
         public List<Dependency> Dependencies { get; set; } 
     }
 }

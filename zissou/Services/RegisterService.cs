@@ -6,7 +6,7 @@ namespace zissou.Services
 {
     public class RegisterService
     {
-        public static Task<string> Create(Register registerRequest)
+        public static Task<string> Create(Application registerRequest)
         {
             return Task.FromResult(Guid.NewGuid().ToString());
         }

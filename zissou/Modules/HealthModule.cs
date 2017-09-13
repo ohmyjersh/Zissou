@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Nancy;
 using Nancy.ModelBinding;
+using zissou.Handlers;
 using zissou.Models;
 
 namespace zissou.Modules
