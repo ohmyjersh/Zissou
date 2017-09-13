@@ -9,13 +9,13 @@ namespace zissou.tests
 {
     public class RegisterHandlerTests
     {
-        private Func<RegisterRequest, Task> _createApplication;
-        private RegisterRequest _registerRequest;
+        private Func<Application, Task> _createApplication;
+        private Application _registerRequest;
 
         RegisterHandlerTests()
         {
             _createApplication = (request) => Task.CompletedTask;
-            _registerRequest = new RegisterRequest
+            _registerRequest = new Application
             {
                 Name = "Application",
                 Server = "Server-1",

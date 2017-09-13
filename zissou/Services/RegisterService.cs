@@ -5,9 +5,9 @@ namespace zissou.Services
 {
     public class RegisterService
     {
-        public static Task Create(RegisterRequest registerRequest)
+        public static Task<string> Create(RegisterRequest registerRequest)
         {
-            throw new NotImplementedException();
+            return Task.FromResult(Guid.NewGuid().ToString());
         }
     }
 }

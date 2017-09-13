@@ -5,11 +5,17 @@ namespace zissou.Handlers
 {
     public class RegisterHandler
     {
-        public static async Task<string> RegisterApplication(RegisterRequest registerRequest, Func<RegisterRequest, Task> registerApplication)
+        public static async Task<string> RegisterApplication(RegisterRequest registerRequest, Func<RegisterRequest, Task<string>> registerApplication)
         {
-            
-            return await Task.FromResult(registerRequest.Name);
-                //await registerApplication(registerRequest);
+            try
+            {
+                var appId = await registerApplication(registerRequest);
+                return appId;
+            }
+            catch (Exception ex)
+            {
+                return "error";
+            }
         }
     }
 }
