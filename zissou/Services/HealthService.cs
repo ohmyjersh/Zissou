@@ -1,11 +1,12 @@
 ﻿using System.Threading.Tasks;
+using zissou.Models;
 
 namespace zissou.Services
 {
-    internal class HealthService
+    class HealthService
     {
-        public static async Task<Application> Update(string appName, string appId) {
-            return await Task.FromResult(new Application());
+        public static async Task<Health> Update(Ping ping) {
+            return await Task.FromResult(new Health());
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Nancy;
+using Nancy.ModelBinding;
+using zissou.Models;
 
 namespace zissou.Modules
 {
@@ -9,7 +11,7 @@ namespace zissou.Modules
         public HealthModule()
         {
             Put("/health/{appName}/{appId}", async (args) => {
-				return await HealthHandler.UpdateApplicationStatus(args.appName, args.appId, Services.HealthService.Update);
+				return await HealthHandler.UpdateApplicationStatus(this.Bind<Ping>(), Services.HealthService.Update);
 			});
         }
     }

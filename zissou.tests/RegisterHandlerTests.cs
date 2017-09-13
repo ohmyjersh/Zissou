@@ -4,21 +4,23 @@ using System.Net;
 using System.Threading.Tasks;
 using Xunit;
 using zissou.Handlers;
+using zissou.Models;
 
 namespace zissou.tests
 {
     public class RegisterHandlerTests
     {
-        private Func<Application, Task> _createApplication;
-        private Application _registerRequest;
+        private Func<Register, Task> _createApplication;
+        private Register _registerRequest;
 
         RegisterHandlerTests()
         {
             _createApplication = (request) => Task.CompletedTask;
-            _registerRequest = new Application
+            _registerRequest = new Register
             {
                 Name = "Application",
                 Server = "Server-1",
+                Version = "1.0.1",
                 Dependencies = new System.Collections.Generic.List<Dependency> {
                     new Dependency {
                         Name = "Dep 1",

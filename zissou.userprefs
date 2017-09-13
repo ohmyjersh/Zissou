@@ -1,12 +1,13 @@
-﻿<Properties StartupConfiguration="{65599E31-F76E-44C1-828B-D42BC9E29C6A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="zissou/Services/HealthService.cs">
+﻿<Properties StartupConfiguration="{4C263394-AE1D-4B17-810B-A9065122322F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="zissou.tests/RegisterHandlerTests.cs">
     <Files>
-      <File FileName="zissou/Modules/RegisterModule.cs" Line="12" Column="79" />
-      <File FileName="zissou/Handlers/RegisterHandler.cs" Line="8" Column="107" />
-      <File FileName="zissou/Services/RegisterService.cs" Line="14" Column="1" />
-      <File FileName="zissou/Modules/HealthModule.cs" Line="5" Column="25" />
-      <File FileName="zissou/Modules/HealthHandler.cs" Line="12" Column="6" />
-      <File FileName="zissou/Services/HealthService.cs" Line="7" Column="70" />
+      <File FileName="zissou/Modules/HealthModule.cs" Line="14" Column="39" />
+      <File FileName="zissou/Handlers/HealthHandler.cs" Line="14" Column="2" />
+      <File FileName="zissou/Modules/RegisterModule.cs" Line="15" Column="10" />
+      <File FileName="zissou/Interfaces/IRequest.cs" Line="1" Column="1" />
+      <File FileName="zissou/Services/RegisterService.cs" Line="15" Column="1" />
+      <File FileName="zissou/Services/HealthService.cs" Line="12" Column="2" />
+      <File FileName="zissou.tests/RegisterHandlerTests.cs" Line="12" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -15,6 +16,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.zissou.tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.zissou PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>

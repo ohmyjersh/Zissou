@@ -2,6 +2,7 @@ namespace zissou
 {
     using Nancy;
     using zissou.Handlers;
+    using zissou.Models;
     using Nancy.ModelBinding;
 
     public class RegisterModule : NancyModule
@@ -9,13 +10,8 @@ namespace zissou
         public RegisterModule()
         {
             Post("/register", async (args) => {
-                return await RegisterHandler.RegisterApplication(BindThis<Application>(), Services.RegisterService.Create); 
+                return await RegisterHandler.RegisterApplication(this.Bind<Register>(), Services.RegisterService.Create); 
             });
-        }
-
-        public T BindThis<T>() {
-            T model = this.Bind();
-            return model;
         }
 
     }
