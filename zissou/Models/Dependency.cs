@@ -1,3 +1,4 @@
+using zissou.Enums;
 using zissou.Interfaces;
 
 namespace zissou.Models
@@ -5,7 +6,7 @@ namespace zissou.Models
     public class Dependency : IRequest {
         public string Name { get; set; }
         public string Version { get; set; }
-        public string Status { get; set;}
+        public Status Status { get; set; }
 
         bool IRequest.IsValid()
         {

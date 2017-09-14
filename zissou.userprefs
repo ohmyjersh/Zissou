@@ -1,14 +1,33 @@
 ﻿<Properties StartupConfiguration="{4C263394-AE1D-4B17-810B-A9065122322F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="zissou/Handlers/HealthHandler.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="zissou/Models/Application.cs">
     <Files>
-      <File FileName="zissou/Models/Health.cs" Line="5" Column="7" />
-      <File FileName="zissou.tests/HealthHandlerTests.cs" Line="21" Column="15" />
-      <File FileName="zissou/Modules/RegisterModule.cs" Line="13" Column="87" />
-      <File FileName="zissou/Models/Application.cs" Line="20" Column="2" />
-      <File FileName="zissou/Handlers/HealthHandler.cs" Line="14" Column="2" />
-      <File FileName="zissou/Services/HealthService.cs" Line="10" Column="10" />
-      <File FileName="zissou/Modules/HealthModule.cs" Line="17" Column="6" />
+      <File FileName="zissou/Handlers/HealthHandler.cs" Line="8" Column="6" />
+      <File FileName="zissou/Models/Application.cs" Line="1" Column="1" />
+      <File FileName="zissou/Models/HealthContainer.cs" Line="15" Column="39" />
+      <File FileName="zissou/Models/Health.cs" Line="6" Column="42" />
+      <File FileName="zissou/Models/Dependency.cs" Line="13" Column="56" />
+      <File FileName="zissou/Models/Ping.cs" Line="1" Column="1" />
+      <File FileName="zissou/Enums/Status.cs" Line="10" Column="1" />
+      <File FileName="zissou/Handlers/RegisterHandler.cs" Line="14" Column="47" />
+      <File FileName="zissou/Startup.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="zissou" expanded="True">
+            <Node name="zissou.tests" expanded="True">
+              <Node name="zissou" expanded="True">
+                <Node name="tests" expanded="True">
+                  <Node name="HealthHandlerTests" expanded="True">
+                    <Node name="ShouldUpdateStatusForApplicationAndReturnHealth" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -16,5 +35,6 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.zissou.tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.zissou PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
 </Properties>
